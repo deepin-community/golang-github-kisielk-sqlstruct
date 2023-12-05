@@ -1,5 +1,24 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-kisielk-sqlstruct (0.0~git20150917.0.0b86a3e-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 08 Jan 2021 14:59:44 +0100
+
+golang-github-kisielk-sqlstruct (0.0~git20150917.0.0b86a3e-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Konstantinos Margaritis ]
+  * Replace golang-go with golang-any in Build-Depends, remove golang-go from
+    Depends
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Aug 2017 20:36:45 +0300
+
+golang-github-kisielk-sqlstruct (0.0~git20150917.0.0b86a3e-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Tianon Gravi <tianon@debian.org>  Mon, 21 Sep 2015 15:57:13 -0700
